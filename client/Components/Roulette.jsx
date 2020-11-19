@@ -8,7 +8,7 @@ class Roulette extends React.Component {
   }
 
   clickthing= () => {
-    const ranNum = Math.floor(Math.random() * 10)
+    const ranNum = Math.floor(Math.random() * 14)
     this.setState({
       ImgLink: aName[ranNum]
     })
