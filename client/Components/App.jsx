@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './header'
+import Header from './Header'
 import Button1 from './Button1'
 import Button2 from './Button2'
 import Body from './Body'
