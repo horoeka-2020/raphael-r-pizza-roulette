@@ -11,4 +11,6 @@
     text-align: center;
   }
   
- 
+#grad {
+    background-image: radial-gradient(rgb(245, 210, 10), red, orange);
+}
