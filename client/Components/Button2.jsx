@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Button2 = () => {
   return (
     <div className='button2'>
-      <button>RPizza Roulette</button>
+      <Link to='/roulette'><button>RPizza Roulette</button></Link>
     </div>
   )
 }
