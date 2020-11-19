@@ -1,10 +1,9 @@
 import React from 'react'
-import Header from './Header'
+import { Route } from 'react-router-dom'
+import Header from './header'
 import Body from './Body'
 import Roulette from './Roulette'
 import Create from './Create'
-import {Route} from 'react-router-dom'
-
 class App extends React.Component {
   render () {
     return (
