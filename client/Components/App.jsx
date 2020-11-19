@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import Header from './header'
+import Header from './Header'
 import Body from './Body'
 import Roulette from './Roulette'
 import Create from './Create'
