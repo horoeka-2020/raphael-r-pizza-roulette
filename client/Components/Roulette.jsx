@@ -17,10 +17,18 @@ class Roulette extends React.Component {
   render () {
     return (
       <>
-        <button onClick={this.clickthing}>Random RPizza</button>
-         <img src={`/images/${this.state.ImgLink}`}/>
-          <Button1 />
-          </>
+      <div>
+        <table>
+          <thead>
+            <tr>
+            <th> <button className="button" onClick={this.clickthing}>Random RPizza</button></th>
+            <th><Button1 /></th>
+            </tr>
+          </thead>
+        </table>
+        <img className="img" src={`/images/${this.state.ImgLink}`}/>
+      </div>
+      </>
     )
   }
 }
