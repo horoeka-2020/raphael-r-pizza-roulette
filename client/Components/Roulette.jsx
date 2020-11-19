@@ -4,7 +4,7 @@ import aName from '../functions'
 
 class Roulette extends React.Component {
   state = {
-    ImgLink: 'base-01.png'
+    ImgLink: 'animated-pizza.gif'
   }
 
   clickthing= () => {
