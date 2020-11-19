@@ -9,13 +9,11 @@ class App extends React.Component {
     return (
     <>
       <Header />
-      <div className='body-container'>
-        <div className='main'>
-          <Route exact path='/' component={Body}/>
-          <Route path='/roulette'component={Roulette}/>
-          <Route path='/Create' component={Create} />
-        </div>
-      </div>
+    <div className='body-container'>
+        <Route exact path='/' component={Body}/>
+        <Route path='/roulette'component={Roulette}/>
+        <Route path='/Create' component={Create} />
+    </div>
     </>
     )
   }
