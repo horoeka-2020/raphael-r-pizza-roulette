@@ -1,3 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Syne Mono', monospace;
+  
+}
+
 .custom{
     cursor: url('images/Pizza-Normal-Select.cur'), auto;
 }
@@ -14,3 +21,21 @@
 #grad {
     background-image: radial-gradient(rgb(245, 210, 10), red, orange);
 }
+ 
+.body {
+    height: 100%;
+}
+
+.button1 {
+
+}
+
+.button2 {
+
+}
+
+/* @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+html,
+body {
+  height: 100%
+} */
