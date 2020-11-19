@@ -8,10 +8,14 @@ class App extends React.Component {
   render () {
     return (
     <>
-    <Header />
-     <Route exact path='/' component={Body}/>
-     <Route path='/roulette'component={Roulette}/>
-     <Route path='/Create' component={Create} />
+      <Header />
+      <div className='body-container'>
+        <div className='main'>
+          <Route exact path='/' component={Body}/>
+          <Route path='/roulette'component={Roulette}/>
+          <Route path='/Create' component={Create} />
+        </div>
+      </div>
     </>
     )
   }
