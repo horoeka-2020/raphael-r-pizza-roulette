@@ -87,9 +87,12 @@ footer {
 
 .createHeader {
   font-family: 'Lobster', cursive;
+  text-align: center;
 }
 .baseHeader {
   font-family: 'Lobster', cursive;
+  text-align: center;
+
 }
 
 .homeButton {
@@ -116,6 +119,7 @@ footer {
 
 .cheeseHeader {
   font-family: 'Lobster', cursive;
+  text-align: center;
 }
 
 @-webkit-keyframes glow {

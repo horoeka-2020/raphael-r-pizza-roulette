@@ -42,7 +42,9 @@ class Create extends React.Component {
           <label htmlFor="things">meet and thing</label>
           <input type="radio" id="all" name="top" value="pizza-04.jpg"onChange={this.whygod}/>
           <label htmlFor="all">all the things</label>
+          <div>
           <Link to='/'><button className='homeButton'>Home Page</button></Link>
+          </div>
         </div>
       </div>
       </>
