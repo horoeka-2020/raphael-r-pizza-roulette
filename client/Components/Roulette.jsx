@@ -1,6 +1,7 @@
 import React from 'react'
 import Button1 from './Button1'
 import aName from '../functions'
+import { Link } from 'react-router-dom'
 
 class Roulette extends React.Component {
   state = {
@@ -21,12 +22,13 @@ class Roulette extends React.Component {
         <table>
           <thead>
             <tr>
-            <th> <button className="button" onClick={this.clickthing}>Random RPizza</button></th>
-            <th><Button1 /></th>
+              <th> <button className="button" onClick={this.clickthing}>Random RPizza</button></th>
+              <th><Button1 /></th>
             </tr>
           </thead>
         </table>
         <img className="img" src={`/images/${this.state.ImgLink}`}/>
+        <Link to='/'><button className='button'>Home Page</button></Link>
       </div>
       </>
     )
