@@ -1,2 +1,2 @@
-const aName = [ 'base-01-with-sauce.jpg', 'base-01.png', 'base-01.png', 'cheese-01.png', 'cheese-02.jpg', 'pizza-01.png', 'pizza-02.jpg', 'pizza-03.jpg', 'pizza-04.jpg', 'pizza-in-an-oven-02.png', 'pizza-in-an-oven-01.gif', 'animated-pizza.gif', 'pizza-05.jpg', 'pizza06.jpg', 'pizza07.png' ]
+const aName = [ 'pizza-photo1.jpg', 'pizza-photo2.jpg', 'pizza-photo3.jpg', 'pizza-photo4.jpg', 'pizza-photo5.jpg', 'pizza-photo6.jpg', 'pizza-photo7.jpg', 'pizza-photo8.jpg' ]
 export default aName

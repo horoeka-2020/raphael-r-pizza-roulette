@@ -14,6 +14,7 @@ const Body = () => {
         </thead>
       </table>
       <img className="img" src='/images/pizza-in-an-oven-01.gif'/>
+      <footer>the arrrr is silent</footer>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import Button2 from './Button2'
-import Cheese from './Cheese'
+import { Link } from 'react-router-dom'
 import Base from './Base'
+import Cheese from './Cheese'
 
 class Create extends React.Component {
   state={
@@ -42,6 +43,7 @@ class Create extends React.Component {
           <input type="radio" id="all" name="top" value="pizza-04.jpg"onChange={this.whygod}/>
           <label htmlFor="all">all the things</label>
         </div>
+        <Link to='/'><button className='button'>Home Page</button></Link>
       </div>
       </>
     )
