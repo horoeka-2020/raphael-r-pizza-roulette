@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 class Roulette extends React.Component {
   state = {
-    ImgLink: 'base-01.png'
+    ImgLink: 'animated-pizza.gif'
   }
 
   clickthing= () => {
