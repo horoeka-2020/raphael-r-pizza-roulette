@@ -8,7 +8,7 @@ const Body = () => {
       <table>
       <thead>
         <tr>
-        <th><Button1 /></th>
+        <th><Button1 /></th> 
         <th><Button2 /></th>
         </tr>
       </thead>

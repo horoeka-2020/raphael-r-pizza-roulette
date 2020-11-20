@@ -13,7 +13,6 @@ const Create = () => {
         </tr>
       </thead>
       </table>
-    
     <img src='/images/pizza-in-an-oven-02.png'/>
     </div>
     </>
