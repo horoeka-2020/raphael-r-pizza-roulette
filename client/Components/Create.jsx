@@ -31,10 +31,10 @@ class Create extends React.Component {
             </tr>
           </thead>
         </table>
-        <img src={`/images/${this.state.imageLink}`}/>
+        <img className='img' src={`/images/${this.state.imageLink}`}/>
         <Base/>
         <Cheese />
-        <div className='header'>
+        <div className='createHeader'>
           <h3>pick your toppings</h3>
           <input type="radio" id="meet" name="top" value="pizza-02.jpg" onChange={this.whygod}/>
           <label htmlFor="meet">meet</label>
@@ -42,8 +42,8 @@ class Create extends React.Component {
           <label htmlFor="things">meet and thing</label>
           <input type="radio" id="all" name="top" value="pizza-04.jpg"onChange={this.whygod}/>
           <label htmlFor="all">all the things</label>
+          <Link to='/'><button className='homeButton'>Home Page</button></Link>
         </div>
-        <Link to='/'><button className='button'>Home Page</button></Link>
       </div>
       </>
     )
