@@ -6,7 +6,7 @@ import Cheese from './Cheese'
 
 class Create extends React.Component {
   state={
-    temp: '',
+    temp: 'base-01.png',
     imageLink: 'pizza-in-an-oven-02.png'
   }
   changeHere= () => {
