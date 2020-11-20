@@ -10,9 +10,9 @@ class App extends React.Component {
     <>
       <Header />
     <div className='body-container'>
-        <Route exact path='/' component={Body}/>
-        <Route path='/roulette'component={Roulette}/>
-        <Route path='/Create' component={Create} />
+      <Route exact path='/' component={Body}/>
+      <Route path='/roulette'component={Roulette}/>
+      <Route path='/Create' component={Create} />
     </div>
     </>
     )
