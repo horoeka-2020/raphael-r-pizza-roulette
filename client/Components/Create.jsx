@@ -31,7 +31,7 @@ class Create extends React.Component {
             </tr>
           </thead>
         </table>
-        <img className='img' src={`/images/${this.state.imageLink}`}/>
+        <img className='pizza-img' src={`/images/${this.state.imageLink}`}/>
         <Base/>
         <Cheese />
         <div className='createHeader'>

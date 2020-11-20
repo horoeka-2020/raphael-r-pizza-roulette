@@ -28,8 +28,10 @@ class Roulette extends React.Component {
             </tr>
           </thead>
         </table>
-        <img className="img" src={`/images/${this.state.ImgLink}`}/>
-        <Link to='/'><button className='button'>Home Page</button></Link>
+        <img className="pizza-img" src={`/images/${this.state.ImgLink}`}/>
+        <div>
+        <Link to='/'><button className='homeButton'>Home Page</button></Link>
+        </div>
       </div>
       </>
     )
