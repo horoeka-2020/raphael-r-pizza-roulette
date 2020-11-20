@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cheese = () => {
   return (
-    <div className='header'>
+    <div className='cheeseHeader'>
       <h3>Pick your cheese</h3>
       <input type="radio" id="yellowcheese" name="cheese" value="male"/>
       <label htmlFor="yellowcheese">yellow cheese</label>

@@ -1,42 +1,60 @@
 
-.custom{
+  .custom{
     cursor: url('images/Pizza-Normal-Select.cur'), auto;
-}
-
-.body-container {
+  }
+  
+  .body-container {
     display: flex;
     flex-direction: row;
     font-family: 'Syne Mono', monospace;
+    margin-top: 10px;
     margin-left: 32%;
     margin-right: auto;
-    width: 8em
+    width: 8em;
   }
   
   .header {
+    margin-left: -150px;
     margin-bottom: 2em;
-    text-align: center;
+    text-align: left;
     font-family: 'Lobster', cursive;
+    font-size: 28px;
+    writing-mode: vertical-rl;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: white;
+    border: 10px solid red;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  #grad {
+    background-image: radial-gradient(rgb(245, 210, 10), red, orange);
   }
   
-#grad {
-    background-image: radial-gradient(rgb(245, 210, 10), red, orange);
-}
-
-.button {
-    background-color: #4CAF50;
+  .button {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    background-color: #4CAF50;
     cursor: url('images/piz_normal_cheese2_LEFT.cur'), auto;
     border-radius: 6px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border: 50px;
+    margin-bottom: 9px;
 }
+
 
 
 html,
@@ -51,4 +69,52 @@ body {
   width: 450px;
   height: 450px;
   
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.createHeader {
+  font-family: 'Lobster', cursive;
+}
+.baseHeader {
+  font-family: 'Lobster', cursive;
+}
+
+.homeButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: url('images/piz_normal_cheese2_LEFT.cur'), auto;
+  border-radius: 6px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  border: 50px;
+  margin-top: 25px;
+}
+
+.cheeseHeader {
+  font-family: 'Lobster', cursive;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #d80a0a, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }

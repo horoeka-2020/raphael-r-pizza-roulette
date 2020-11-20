@@ -2,7 +2,7 @@ import React from 'react'
 
 const Base = () => {
   return (
-    <div className='header'>
+    <div className='baseHeader'>
       <h3>Pick your Base</h3>
       <input type="radio" id="plane" name="base" value="male"/>
       <label htmlFor="plane">plane</label>
