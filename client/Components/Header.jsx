@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
     <div className='header'>
-      <h1>Raphael <button onClick={start}>R</button>Pizza Roulette</h1>
+      <h1>Raphael <button onClick={start} className='header'>R</button>Pizza Roulette</h1>
     </div>
     </>
   )
