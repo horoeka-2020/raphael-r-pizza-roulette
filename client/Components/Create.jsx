@@ -25,7 +25,7 @@ class Create extends React.Component {
         <table>
           <thead>
             <tr>
-              <th><button className="button"onClick={this.changeHere}>Not a button</button></th>
+              <th><button className="button"onClick={this.changeHere}>make your pizza</button></th>
               <th><Button2 /></th>
             </tr>
           </thead>

@@ -21,8 +21,8 @@ class Roulette extends React.Component {
         <table>
           <thead>
             <tr>
-            <th> <button className="button" onClick={this.clickthing}>Random RPizza</button></th>
-            <th><Button1 /></th>
+              <th> <button className="button" onClick={this.clickthing}>Random RPizza</button></th>
+              <th><Button1 /></th>
             </tr>
           </thead>
         </table>
