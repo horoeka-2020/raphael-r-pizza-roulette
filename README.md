@@ -1,6 +1,6 @@
 # raphael-r-pizza-roulette
 
-Week 06 Ravenclaw repo for group project
+Week 06 Raphael repo for group project
 
 ## Group Members
 1. Gavin
